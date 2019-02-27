@@ -1,0 +1,23 @@
+{
+  "name": "inti.dj",
+  "version": "1.0.0",
+  "description": "plug.dj clone application",
+  "main": "./back/index.js",
+  "scripts": {
+    "build": "cd front && npm run build",
+    "preinstall": "cd front && npm install && cd .. && cd back && npm install && echo 'done!'",
+    "dev": "cd front && npm run serve",
+    "start": "node ./back/."
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agrajak/inti.dj.git"
+  },
+  "author": "korbots@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Agrajak/inti.dj/issues"
+  },
+  "homepage": "https://github.com/Agrajak/inti.dj#readme",
+  "cacheDirectories": ["front/node_modules", "back/node_modules"]
+}
