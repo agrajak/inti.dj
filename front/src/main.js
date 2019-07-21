@@ -11,6 +11,7 @@ moment.tz('Asia/Seoul')
 moment.locale('ko')
 Vue.prototype.$moment = moment
 const url = config.host + ':' + config.port
+// TODO: SERVER URL VALIDATION CHECK
 Vue.prototype.$url = url
 Vue.use(VueYouTube)
 Vue.use(new VueSocket({

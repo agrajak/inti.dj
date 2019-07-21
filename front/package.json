@@ -8,9 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "moment-timezone": "^0.5.23",
-    "vue": "^2.6.6",
+    "vue": "^2.6.10",
     "vue-socket.io": "^3.0.5",
     "vue-youtube-embed": "^2.2.1"
   },

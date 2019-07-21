@@ -1,2 +1,6 @@
 {
+    "secret" : "your_secret",
+    "ga_key": "AIzaSyCFcIiMS6maGJs8zZbPAfJNfF_KGMwnwog",
+    "host": "http://127.0.0.1",
+    "port": 9090  
 }

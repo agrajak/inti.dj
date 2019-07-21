@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       user: null,
-    }
+    } 
   },
   computed: {
     isLogged () { return this.user }

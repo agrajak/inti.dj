@@ -8,7 +8,7 @@
 
 ## Install
 
-### Intall @vue/cli 3.0 
+### Install @vue/cli 3.0 
 ```bash
 $ npm i -g @vue/cli
 ```
